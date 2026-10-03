@@ -1,35 +1,42 @@
-# Ochukwu Ichaka Ayodele
+# Ochukwu Ichaka Ayodele (Timothy)
 ### Senior Network Security Engineer | Adjunct Lecturer | Published IT Author
 
-Welcome to my technical portfolio repository. This space acts as an interactive directory for my published engineering literature, comprehensive architecture playbooks, and production-ready network configuration scripts.
+Welcome to my professional engineering repository. This space serves as a central validation portal for my published enterprise literature, practical routing/switching playbooks, and production-ready Cisco configuration frameworks.
 
 ---
 
-## 📚 Published Literature & Core Methodology
+## 📚 Featured Publication & Technical Literature
 
-### 1. **Hardware & Software Troubleshooting Handbook** 
-* **Focus:** A complete diagnostic blueprint designed to address the IT skills-gap, focusing on systematic troubleshooting, network operations, and multi-vendor infrastructure maintenance.
-* **Cisco Architecture Labs Featured:** 
-  * **Layer 2 & Layer 3 switching:** High-availability Inter-VLAN routing and Core-to-Distribution Layer design.
-  * **Spanning Tree Optimization:** Loop prevention frameworks via **Rapid PVST+** root bridge path tuning.
-  * **Link Aggregation:** Performance scaling using standard **LACP** and **PAgP EtherChannel** bundles.
-  * **Border Control & Security:** Advanced perimeter defense using **Access Control Lists (ACLs)** and secure **NAT/PAT** mappings.
-  * **Wireless Enterprise Deployment:** Scaling centralized wireless infrastructures using a **Wireless LAN Controller (WLC)** and secure **RADIUS/WPA2-Enterprise** authentication.
+### **Understanding Network Design, Device Configuration and Secure Management. Volume 1.**
+* **Author:** Adjunct Ochukwu Ichaka Timothy
+* **Target Audience:** Network Engineers, System Administrators, and IT Professionals.
+* **Scope:** A complete hands-on guide addressing real-world multi-vendor architectures, infrastructural optimization, and enterprise-grade secure perimeter management.
 
-### 2. **The Independent Enterprise Network Infrastructure Handbook: Strategy, Architecture, and Execution**
-* **Published:** August 2026
-* **Engineering Scope:** A deep-dive playbook providing a hands-on approach to planning, designing, configuring, and implementing robust enterprise networks for modern businesses.
-* 👉 **[Access the Full Project Handbook PDF](./enterprise-network-infrastructure.pdf)**
+🛒 **[Available on Amazon](https://www.amazon.com/Understanding-Network-Design-Configuration-Management/dp/B0CSDHY4XW)** | 🔬 **[View on ResearchGate](https://www.researchgate.net/profile/Timothy-Ayodele-3?ev=hdr_xprf)**
+
+#### 🛠️ Core Engineering Frameworks Covered:
+* **Layer 2 & Layer 3 Architectures:** Advanced Inter-VLAN routing, dynamic trunk encapsulation tuning, native VLAN isolation, and Core-to-Distribution Layer loops prevention.
+* **Network Redundancy & Aggregation:** Systematic deployment and troubleshooting of **Rapid PVST+ (IEEE 802.1w)** spanning-tree paths and **LACP / PAgP EtherChannel** link groups.
+* **Edge Routing & Dynamic Protocols:** Enterprise routing optimizations featuring single and multi-area **OSPF v2/v3**, passive-interface configurations, and custom route redistribution.
+* **Perimeter Defense & Address Mapping:** Granular traffic control using **Extended Access Control Lists (ACLs)** and secure edge address translation using Static/Dynamic **NAT/PAT** mappings.
+* **Wireless Enterprise Architectures:** Scaling centralized wireless infrastructures using Lightweight APs, Home Wireless gateways, and **DHCP server pools**.
 
 ---
 
-## 🛠️ Complete Portfolio Lab Directory
-Below is a structured roadmap to the verified labs detailed inside my handbook. Each project section includes full terminal startup/running configuration scripts, topology layouts, and network verification outputs:
+## 📄 Practical Lab Portfolio & Engineering Handbook
+Complementing my theoretical literature, this section gives direct visibility into my end-to-end technical execution blueprints. 
 
-### 🖥️ [Project 1: Foundation LAN Construction](./enterprise-network-infrastructure.pdf)
-* **Objective:** Built a complete, scalable Multi-Switch LAN infrastructure supporting enterprise subnets, local file servers, and hardware endpoint peripherals using private IP allocation blocks.
-* **Verification Logs:** Comprehensive ping matrices and `show ip interface brief` status reports validating 100% connectivity.
+👉 **[Access the Full Project Handbook PDF](./enterprise-network-infrastructure.pdf)**
 
-### 🔒 [Project 2: LAN Optimization, L2 Security & Remote Access](./enterprise-network-infrastructure.pdf)
-* **Objective:** Aggregated trunk interfaces for optimal server link throughput and mitigated rogue network access vectors by enforcing strict **Port Security** with sticky MAC thresholds.
-* **Verification Logs:** Outputs for `show etherchannel summary` and `show port-security interface`.
+This comprehensive manual contains complete Cisco IOS running scripts, physical and logical topology diagrams, exact interface IP addressing maps, and terminal connectivity verifications.
+
+### 🖥️ Project 1: Enterprise LAN Construction & Subnet Architecture
+* **Objective:** Engineered a resilient Multi-Switch LAN topology supporting standard end-user traffic zones, enterprise peripherals, and dedicated printing/file asset subnets using customized private addressing.
+* **Verification Proofs:** Embedded ping connectivity records and `show ip interface brief` console logs validating end-to-end traversal.
+
+### 🔒 Project 2: Campus Infrastructure Optimization & Switch Hardening
+* **Objective:** Aggregated trunk interfaces for optimal server link group throughput via multi-port EtherChannels and eliminated Layer 2 rogue mac injection vulnerabilities using strict **Port Security** with custom sticky address restrictions.
+* **Verification Proofs:** Verified outputs for console commands including `show etherchannel summary` and `show port-security interface`.
+
+### 📡 Project 3 & 7: Scaled Enterprise WLAN Architectures
+* **Objective:** Replaced distributed individual access points with lightweight endpoints managed via a centralized **Wireless LAN Controller (WLC)** utilizing secure **WPA2-Enterprise** and external authentication.
